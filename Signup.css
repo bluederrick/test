@@ -18,8 +18,9 @@
 
 
  .nav_header {
-     display: flex;
 
+     display: flex;
+     position: static;
      /* line-height: 60px; */
      background: #00B4DB;
      /* fallback for old browsers */
@@ -45,7 +46,7 @@
      display: flex;
      justify-content: center;
      align-items: center;
-     height: 100vh;
+     height: 130vh;
      position: relative;
      isolation: isolate;
 
@@ -80,7 +81,7 @@
  }
 
  div[class="btn"] {
-     margin-top: 20px;
+     margin-top: 10px;
      margin-right: 20px;
      /* border: 1px solid black; */
      padding-left: 0;
@@ -155,6 +156,10 @@
     background-color: #0083B0;
 } */
 
+ #submit {
+     margin-top: 50px;
+
+ }
 
  a:hover {
      color: blue;

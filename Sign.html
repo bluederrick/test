@@ -35,15 +35,15 @@
 
     <div class="text_box">
         <form>
-            <h1>Login</h1>
+            <h1>GIG signUp</h1>
             <div class="sub-Login form" id="sub_login">
                 <i class="fa-solid fa-user"></i>
-                <label>firstname</label>
+                <label>fullname</label>
                 <input type="text" placeholder="" required class="firstname" />
             </div>
             <div class="sub-Login form" id="sub_login">
                 <i class="fa-solid fa-user"></i>
-                <label>lastname</label>
+                <label>username</label>
                 <input type="text" placeholder="" required class="lastname" />
             </div>
             <div class="sub-Login form">
@@ -51,9 +51,20 @@
                 <label>password</label>
                 <input type="password" placeholder="" class="password" id="psswd" required />
             </div>
-            <button type="button" class="btn btn-primary" id="login"> Login</button>
+            <div class="sub-Login form">
+                <i class="fa-solid fa-lock"></i>
+                <label>confirm password</label>
+                <input type="password" placeholder="" class="password" id="psswd" required />
+            </div>
+            <div class="sub-Login form">
+                <i class="fa-solid fa-lock"></i>
+                <label>Email</label>
+                <input type="email" placeholder="example@.com" class="password" id="psswd" required />
+            </div>
+            <button type="button" class="btn btn-primary" id="submit"> submit</button>
             <div class="btn">
-                <button type="button" class="btn btn-secondary lg" class="sub-Login form " id="btn2"> Not Regsitered ?
+                <p> Not Regsitered ?</p>
+                <button type="button" class="btn btn-secondary lg" class="sub-Login form " id="btn2">
                     Sign up
                     <a href="">here</a></button>
             </div>
